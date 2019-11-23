@@ -12,7 +12,6 @@
 		60F91AC2B5C54BB9A7080D98D89726F9 /* MSScreenShield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34415736B593385B2405D36D5A9171F8 /* MSScreenShield-dummy.m */; };
 		61F3F77A8124DD115FAA2D7E48A19DEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		63077BD24B5AD6BAA1D818A61536ECF9 /* Pods-MSScreenShield_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB3A07F3390943A83A0FAB207FA5D879 /* Pods-MSScreenShield_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C41A56092AFB441CBE1CEEC68D419983 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80C619907E4AC9F5881B8E10294CD03 /* ReplaceMe.swift */; };
 		CD80D93E9AE0357B8F061B3753F4815A /* Pods-MSScreenShield_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D4DDF9C3D4609881BDAC3483B37A64 /* Pods-MSScreenShield_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5FA78DE2A7408CF4D1509130791E60D /* MSScreenShield-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EECE043562B104070FC0163C9AFC726A /* MSScreenShield-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0E0DA35B68D584D3C028CBA353CC706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,12 +39,12 @@
 		075054E917443F1482664AE4C232616A /* Pods-MSScreenShield_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSScreenShield_Tests.modulemap"; sourceTree = "<group>"; };
 		098EA9EAC4557B9F823601985B096161 /* Pods-MSScreenShield_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSScreenShield_Tests-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		321EA8F9E91810B6440C716D2B06EA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		321EA8F9E91810B6440C716D2B06EA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34415736B593385B2405D36D5A9171F8 /* MSScreenShield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSScreenShield-dummy.m"; sourceTree = "<group>"; };
 		3A8EEEE91B34E31B8C856505E627AB52 /* Pods-MSScreenShield_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSScreenShield_Example-dummy.m"; sourceTree = "<group>"; };
 		52D4DDF9C3D4609881BDAC3483B37A64 /* Pods-MSScreenShield_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSScreenShield_Example-umbrella.h"; sourceTree = "<group>"; };
-		56BD6D0C5979739C4AD0A7BDE796C4E0 /* MSScreenShield.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MSScreenShield.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		58F79B9DCC3E41E9327F1648DD9F2E8E /* MSScreenShield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSScreenShield.framework; path = MSScreenShield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BD6D0C5979739C4AD0A7BDE796C4E0 /* MSScreenShield.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MSScreenShield.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58F79B9DCC3E41E9327F1648DD9F2E8E /* MSScreenShield.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSScreenShield.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3E0A43F2FE26CC9B4B43B7592C0175 /* MSScreenShield.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSScreenShield.modulemap; sourceTree = "<group>"; };
 		61DDA7FE99335D6EF1216C93397F9157 /* Pods-MSScreenShield_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSScreenShield_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		630E626AF341F73A4ACC2E2AEC23EBED /* MSScreenShield-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSScreenShield-prefix.pch"; sourceTree = "<group>"; };
@@ -53,18 +52,17 @@
 		684660C43D69D9E4D84838C9604783F4 /* Pods-MSScreenShield_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSScreenShield_Example-Info.plist"; sourceTree = "<group>"; };
 		6A758EC78B8D15EFEE938191278D443C /* Pods-MSScreenShield_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSScreenShield_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		71202EE4AC6BBBBEBCB2CB7EBAC71C93 /* Pods-MSScreenShield_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSScreenShield_Tests-Info.plist"; sourceTree = "<group>"; };
-		764F14AE1CA427E192A3A204DBCDD3A6 /* Pods_MSScreenShield_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSScreenShield_Tests.framework; path = "Pods-MSScreenShield_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764F14AE1CA427E192A3A204DBCDD3A6 /* Pods_MSScreenShield_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSScreenShield_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD25DC4B129E1062C382EC99280BEC3 /* Pods-MSScreenShield_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSScreenShield_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B72529562D08FDD1E0C59FD18969E08 /* Pods-MSScreenShield_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSScreenShield_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4F4BF4D71C5EF28DAADC4253745A39 /* Pods-MSScreenShield_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSScreenShield_Example.modulemap"; sourceTree = "<group>"; };
 		A1006933670CD93E46651320720C543C /* Pods-MSScreenShield_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSScreenShield_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AA7073655CF433EFC4FB3C7DA6A26E8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA7073655CF433EFC4FB3C7DA6A26E8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AED4643A2D23B1FEC44552306C057007 /* Pods-MSScreenShield_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSScreenShield_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B80C619907E4AC9F5881B8E10294CD03 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MSScreenShield/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		BAAEBC517D521AFA736C4630B56B8F5B /* Pods-MSScreenShield_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSScreenShield_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BE1F6E4B23C989EFA9FDC40590F50714 /* MSScreenShield-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MSScreenShield-Info.plist"; sourceTree = "<group>"; };
-		D434E117EC5D8C6B15D68230472BFEDB /* Pods_MSScreenShield_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSScreenShield_Example.framework; path = "Pods-MSScreenShield_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D434E117EC5D8C6B15D68230472BFEDB /* Pods_MSScreenShield_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSScreenShield_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3A07F3390943A83A0FAB207FA5D879 /* Pods-MSScreenShield_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSScreenShield_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ED7325BA0DFB33B70269EFDC3E578F78 /* Pods-MSScreenShield_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSScreenShield_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EECE043562B104070FC0163C9AFC726A /* MSScreenShield-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSScreenShield-umbrella.h"; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 		A546CF2C5671978013D6F227C9F96DBE /* MSScreenShield */ = {
 			isa = PBXGroup;
 			children = (
-				B80C619907E4AC9F5881B8E10294CD03 /* ReplaceMe.swift */,
 				34B411BE0212DF6B1C3AB89763894F57 /* Pod */,
 				83A2660110B0D4FDD0DD80CD6F155D51 /* Support Files */,
 			);
@@ -382,7 +379,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F91AC2B5C54BB9A7080D98D89726F9 /* MSScreenShield-dummy.m in Sources */,
-				C41A56092AFB441CBE1CEEC68D419983 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +525,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -561,7 +557,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -621,8 +617,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

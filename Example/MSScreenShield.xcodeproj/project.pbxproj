@@ -42,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		908AD605FB3EAB667DE1F048 /* Pods-MSScreenShield_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSScreenShield_Example.release.xcconfig"; path = "Target Support Files/Pods-MSScreenShield_Example/Pods-MSScreenShield_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A0CCB8C9D6C209B9AB413A10 /* MSScreenShield.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MSScreenShield.podspec; path = ../MSScreenShield.podspec; sourceTree = "<group>"; };
-		A4CD2D230A227FC45381200E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A0CCB8C9D6C209B9AB413A10 /* MSScreenShield.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSScreenShield.podspec; path = ../MSScreenShield.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4CD2D230A227FC45381200E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A90898757CDC4781B8A3E200 /* Pods_MSScreenShield_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSScreenShield_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB98F1F6489D6BE27985F9B /* Pods-MSScreenShield_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSScreenShield_Example.debug.xcconfig"; path = "Target Support Files/Pods-MSScreenShield_Example/Pods-MSScreenShield_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA414879A4636CF002D621F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EA414879A4636CF002D621F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				02382BDEA4B7CCD3B2E9DBB3 /* Pods-MSScreenShield_Tests.debug.xcconfig */,
 				04F8C6BC9E19680BF50B8721 /* Pods-MSScreenShield_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -499,7 +499,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
