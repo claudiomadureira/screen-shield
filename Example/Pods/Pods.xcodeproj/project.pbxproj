@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1400B0187C619D206985E04096D16615 /* Pods-MSScreenShield_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 098EA9EAC4557B9F823601985B096161 /* Pods-MSScreenShield_Tests-dummy.m */; };
+		250EAE902389D63B00FE62D0 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EAE8C2389D63B00FE62D0 /* UIView-Extension.swift */; };
+		250EAE912389D63B00FE62D0 /* MSScreenshotListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EAE8D2389D63B00FE62D0 /* MSScreenshotListener.swift */; };
+		250EAE922389D63B00FE62D0 /* MSScreenShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EAE8E2389D63B00FE62D0 /* MSScreenShield.swift */; };
+		250EAE932389D63B00FE62D0 /* MSProtectedViewPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250EAE8F2389D63B00FE62D0 /* MSProtectedViewPointer.swift */; };
 		3876CC193F40D358524DB56FCDF9EFE9 /* Pods-MSScreenShield_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EEEE91B34E31B8C856505E627AB52 /* Pods-MSScreenShield_Example-dummy.m */; };
 		60F91AC2B5C54BB9A7080D98D89726F9 /* MSScreenShield-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34415736B593385B2405D36D5A9171F8 /* MSScreenShield-dummy.m */; };
 		61F3F77A8124DD115FAA2D7E48A19DEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -38,6 +42,10 @@
 /* Begin PBXFileReference section */
 		075054E917443F1482664AE4C232616A /* Pods-MSScreenShield_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSScreenShield_Tests.modulemap"; sourceTree = "<group>"; };
 		098EA9EAC4557B9F823601985B096161 /* Pods-MSScreenShield_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSScreenShield_Tests-dummy.m"; sourceTree = "<group>"; };
+		250EAE8C2389D63B00FE62D0 /* UIView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView-Extension.swift"; path = "MSScreenShield/Classes/UIView-Extension.swift"; sourceTree = "<group>"; };
+		250EAE8D2389D63B00FE62D0 /* MSScreenshotListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSScreenshotListener.swift; path = MSScreenShield/Classes/MSScreenshotListener.swift; sourceTree = "<group>"; };
+		250EAE8E2389D63B00FE62D0 /* MSScreenShield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSScreenShield.swift; path = MSScreenShield/Classes/MSScreenShield.swift; sourceTree = "<group>"; };
+		250EAE8F2389D63B00FE62D0 /* MSProtectedViewPointer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSProtectedViewPointer.swift; path = MSScreenShield/Classes/MSProtectedViewPointer.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		321EA8F9E91810B6440C716D2B06EA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34415736B593385B2405D36D5A9171F8 /* MSScreenShield-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSScreenShield-dummy.m"; sourceTree = "<group>"; };
@@ -150,6 +158,10 @@
 		A546CF2C5671978013D6F227C9F96DBE /* MSScreenShield */ = {
 			isa = PBXGroup;
 			children = (
+				250EAE8F2389D63B00FE62D0 /* MSProtectedViewPointer.swift */,
+				250EAE8E2389D63B00FE62D0 /* MSScreenShield.swift */,
+				250EAE8D2389D63B00FE62D0 /* MSScreenshotListener.swift */,
+				250EAE8C2389D63B00FE62D0 /* UIView-Extension.swift */,
 				34B411BE0212DF6B1C3AB89763894F57 /* Pod */,
 				83A2660110B0D4FDD0DD80CD6F155D51 /* Support Files */,
 			);
@@ -312,6 +324,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					038D5D67CE31DC6B2590427FE8CD00AB = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -378,6 +395,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250EAE922389D63B00FE62D0 /* MSScreenShield.swift in Sources */,
+				250EAE912389D63B00FE62D0 /* MSScreenshotListener.swift in Sources */,
+				250EAE932389D63B00FE62D0 /* MSProtectedViewPointer.swift in Sources */,
+				250EAE902389D63B00FE62D0 /* UIView-Extension.swift in Sources */,
 				60F91AC2B5C54BB9A7080D98D89726F9 /* MSScreenShield-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD03FD597A759FB8BE0A0CD8CAB8B1D1 /* MSScreenShield.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -517,7 +539,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MSScreenShield/MSScreenShield-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MSScreenShield/MSScreenShield-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MSScreenShield/MSScreenShield.modulemap";
 				PRODUCT_MODULE_NAME = MSScreenShield;
@@ -537,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD03FD597A759FB8BE0A0CD8CAB8B1D1 /* MSScreenShield.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -549,7 +572,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MSScreenShield/MSScreenShield-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MSScreenShield/MSScreenShield-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MSScreenShield/MSScreenShield.modulemap";
 				PRODUCT_MODULE_NAME = MSScreenShield;
@@ -557,6 +580,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
