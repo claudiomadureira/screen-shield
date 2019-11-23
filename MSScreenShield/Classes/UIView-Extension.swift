@@ -11,13 +11,13 @@ import UIKit
 public extension UIView {
     
     /// Be careful, this must be called only after view having a superview.
-    func addScreenRecordingShield(shieldColor: UIColor = .black) {
+    func addShield(color: UIColor = .black) {
         if MSScreenShield.shared.protectedViewPointers.first(where: { $0.protectedView == self }) != nil{
             MSScreenShield.warn("Tried to add shield to a view again!")
             return
         }
         let view = UIView()
-        view.backgroundColor = shieldColor
+        view.backgroundColor = color
         view.frame = self.bounds
         view.restorationIdentifier = MSScreenShield.shared.shieldIdentifier
         view.translatesAutoresizingMaskIntoConstraints = false
@@ -35,7 +35,7 @@ public extension UIView {
         MSScreenShield.printSafely("Added shield to a view.")
     }
    
-    func removeScreenRecordingShield() {
+    func removeShield() {
         guard let pointer = MSScreenShield.shared.protectedViewPointers.first(where: { $0.protectedView == self }) else { return }
         MSScreenShield.shared.protectedViewPointers.remove(pointer)
         MSScreenShield.printSafely("Removed shield from a view.")

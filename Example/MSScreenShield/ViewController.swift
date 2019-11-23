@@ -24,16 +24,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.txf.layer.borderColor = UIColor.green.cgColor
-        self.txf.layer.borderWidth = 2
+        self.txf.layer.borderColor = UIColor.gray.withAlphaComponent(0.4).cgColor
+        self.txf.layer.borderWidth = 1
         self.txf.layer.masksToBounds = true
         self.txf.layer.cornerRadius = 10
         
         MSScreenShield.allowsPrinting = true
         
-        self.txf.addScreenRecordingShield()
+        self.txf.addShield(color: .blue)
         
-//        self.txf.removeScreenRecordingShield()
+//        self.txf.removeShield()
     }
     
     override func viewWillAppear(_ animated: Bool) {

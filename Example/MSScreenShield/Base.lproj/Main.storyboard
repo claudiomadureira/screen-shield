@@ -24,12 +24,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EfY-LF-A3w">
+                                <rect key="frame" x="37.5" y="103" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="JUW-1X-I9C" firstAttribute="centerX" secondItem="yRi-B0-4qQ" secondAttribute="centerX" id="Goy-1R-jsf"/>
                             <constraint firstItem="JUW-1X-I9C" firstAttribute="width" secondItem="yRi-B0-4qQ" secondAttribute="width" multiplier="0.8" id="Hjr-LK-7Se"/>
+                            <constraint firstItem="JUW-1X-I9C" firstAttribute="top" secondItem="EfY-LF-A3w" secondAttribute="bottom" constant="23" id="edA-hR-9uj"/>
                             <constraint firstItem="JUW-1X-I9C" firstAttribute="centerY" secondItem="yRi-B0-4qQ" secondAttribute="centerY" multiplier="0.5" id="twn-ck-xro"/>
+                            <constraint firstItem="EfY-LF-A3w" firstAttribute="leading" secondItem="JUW-1X-I9C" secondAttribute="leading" id="ygu-n5-Qxo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1ey-M8-ySN"/>
                     </view>
