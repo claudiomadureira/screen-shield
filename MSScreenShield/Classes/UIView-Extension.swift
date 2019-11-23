@@ -11,7 +11,7 @@ import UIKit
 public extension UIView {
     
     /// Be careful, this must be called only after view having a superview.
-    func addShield(color: UIColor = .black) {
+    func addShield(withColor color: UIColor = .black) {
         if MSScreenShield.shared.protectedViewPointers.first(where: { $0.protectedView == self }) != nil{
             MSScreenShield.warn("Tried to add shield to a view again!")
             return

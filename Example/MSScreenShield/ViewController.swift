@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         
         MSScreenShield.allowsPrinting = true
         
-        self.txf.addShield(color: .blue)
+        self.txf.addShield(withColor: .blue)
         
 //        self.txf.removeShield()
     }

@@ -21,7 +21,7 @@ pod 'MSScreenShield'
 
 ```swift
 // Adding shield to some view.
-view.addShield(shieldColor: .black)
+view.addShield(withColor: .black)
 
 // Removing shield.
 view.removeShield()
