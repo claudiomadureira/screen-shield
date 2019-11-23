@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 Protect any UIView component to screen recording adding a shield above the component. Identify when user took a screenshot in a easy and elegant way.
                        DESC
 
-  s.homepage         = 'https://github.com/Cláudio Madureira/MSScreenShield'
+  s.homepage         = 'https://github.com/claudiomadureira/MSScreenShield'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Cláudio Madureira' => 'claudiomsilvaf@gmail.com' }
-  s.source           = { :git => 'https://github.com/Cláudio Madureira/MSScreenShield.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/claudiomadureira/MSScreenShield.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
