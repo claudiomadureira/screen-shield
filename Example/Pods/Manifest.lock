@@ -1,0 +1,16 @@
+PODS:
+  - MSScreenShield (0.1.0)
+
+DEPENDENCIES:
+  - MSScreenShield (from `../`)
+
+EXTERNAL SOURCES:
+  MSScreenShield:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSScreenShield: c3d71522e4716a79567574cfe6062ed3d10c6294
+
+PODFILE CHECKSUM: 51d373428898a695f5077b2d7fd74f7868af598a
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSScreenShield_Example' do
+  pod 'MSScreenShield', :path => '../'
+
+  target 'MSScreenShield_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
